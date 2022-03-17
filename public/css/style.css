@@ -1,0 +1,90 @@
+.bg-color-transparant {
+    background-color: transparent;
+    color: white;
+}
+
+.bg-color-green {
+    background-color: #115D7F;
+}
+
+.bg-color-green-2 {
+    background-color: #049D9A;
+}
+
+.bg-color-blue {
+    background-color: #385B84;
+}
+
+.bg-color-blue-2 {
+    background-color: #151F2B
+}
+
+.footer-color-green {
+    background-color: #001415;
+}
+
+.color-green {
+    color: #115D7F;
+}
+
+.color-green-2 {
+    color: #049D9A;
+}
+
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+.border-radius-25 {
+    border-radius: 25px;
+}
+
+.border-radius-50 {
+    border-radius: 50px;
+}
+
+.bg-color-black-t3 {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bg-color-white-t3 {
+    background-color: rgba(255, 255, 255, 0.08);
+
+}
+
+.footer-icon {
+    width: 30px;
+}
+
+.w-100px {
+    width: 100px;
+}
+
+.h-50px {
+    height: 50px;
+}
+
+.button {
+    padding: 15px 25px 15px 25px;
+}
+
+.button-small {
+    padding: 8px;
+}
+
+.active-btn {
+    background-color: #385982;
+    color: white;
+}
+
+.button-pills {
+    width: 200px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .button-pills {
+        width: 150px;
+
+    }
+}
