@@ -1,7 +1,7 @@
 <?= $this->extend('layout/main'); ?>
 
 <?= $this->section('jumbotron'); ?>
-<?= $this->include('partials/jumbotron_partials'); ?>
+    <?= $this->include('partials/jumbotron_partials'); ?>
 <?= $this->endSection(); ?>
 
 
@@ -18,7 +18,7 @@
         <div class="content">
             <div class="row">
                 <div class="col-lg-4 col-12 mb-3 mb-lg-0">
-                    <div class="bg-color-white-t3 p-4 border-radius-25">
+                    <div class="bg-color-white-t08 p-4 border-radius-25">
                         <div class="d-flex justify-content-between mb-4">
                             <div class="">
                                 <span>Chapter 1</span>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 mb-3 mb-lg-0">
-                    <div class="bg-color-white-t3 p-4 border-radius-25">
+                    <div class="bg-color-white-t08 p-4 border-radius-25">
                         <div class="d-flex justify-content-between mb-4">
                             <div class="">
                                 <span>Chapter 1</span>
@@ -118,7 +118,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 mb-3 mb-lg-0">
-                    <div class="bg-color-white-t3 p-4 border-radius-25">
+                    <div class="bg-color-white-t08 p-4 border-radius-25">
                         <div class="d-flex justify-content-between mb-4">
                             <div class="">
                                 <span>Chapter 1</span>

@@ -56,7 +56,7 @@
 
                             <div class="dropdown-menu about">
                                 <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Game Test</span>
-                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/land"'>INO</span>
+                                <span class="dropdown-item" onclick='window.location.href="/ino"'>INO</span>
                                 <span class="dropdown-item" onclick='window.location.href="https://duckie.land/land"'>ILO</span>
                                 <span class="dropdown-item" onclick='window.location.href="https://duckie.land/land"'>IIO</span>
                                 <span class="dropdown-item" onclick='window.location.href="https://duckie.land/land"'>Voting</span>
@@ -66,9 +66,19 @@
                         <li>
                             <a href="https://duckie.land#team-part">Ranking</a>
                         </li>
+                        <li class="menu-about menu_has_children ">
+                            <a class="menu-about">Services</a>
+
+                            <div class="dropdown-menu about">
+                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Duckie Starter</span>
+                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Duckie Bridge</span>
+                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Duckie Morph</span>
+                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Duckie Market</span>
+                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Duckie Store</span>
+                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Duckie Cafe</span>
+                            </div>
+
                         <li>
-                            <a href="https://duckie.land#team-part">My Profile</a>
-                        </li>
 
 
                     </ul>

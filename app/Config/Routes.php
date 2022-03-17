@@ -42,6 +42,10 @@ $routes->get('/staking', function(){
     return view('staking_view');
 });
 
+$routes->get('/ino', function(){
+    return view('ino_view');
+});
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
