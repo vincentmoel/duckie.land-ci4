@@ -182,10 +182,10 @@
                 </div>
                 <div class="col-lg-6 col-md-9 col-12 text-center text-md-right">
                     <div class="btn-group-wrapper bg-color-blue-2 border-radius-50 h-50px d-inline-flex">
-                        <div class="active-btn button-pills border-radius-50 text-center h-100 d-flex justify-content-center">
+                        <div class="active-btn button-pills border-radius-50 text-center h-100 d-flex justify-content-center cursor-pointer" id="btn-stacked" onclick="historyClicked('stacked')">
                             <div class="align-self-center text-white">Stacked</div>
                         </div>
-                        <div class=" button-pills border-radius-50 text-center h-100 d-flex justify-content-center">
+                        <div class=" button-pills border-radius-50 text-center h-100 d-flex justify-content-center cursor-pointer" id="btn-rewards" onclick="historyClicked('rewards')">
                             <div class="align-self-center text-white">Rewards</div>
                         </div>
                     </div>
@@ -195,12 +195,56 @@
 
         </div>
 
-        <div class="content bg-blue-dark-2 border-radius-25 p-5 text-center">
+        <div class="content bg-blue-dark-2 border-radius-25 p-5 text-center" id="history-stacked">
             <img src="../../asset/img/wallet.png" class="mb-3" alt="" width="150px">
             <p class="text-white">No activity found</p>
         </div>
 
+        <div class="content bg-blue-dark-2 border-radius-25 p-5 text-center d-none" id="history-reward">
+            <img src="../../asset/img/wallet.png" class="mb-3" alt="" width="150px">
+            <p class="text-white">No reward found</p>
+        </div>
+
     </div>
+
 </div>
+
+<script>
+    function historyClicked(btnName) {
+        if(btnName == 'stacked')
+        {
+            var contentStacked = document.getElementById("history-stacked");
+            contentStacked.classList.remove("d-none");
+
+            var contentRewards = document.getElementById("history-reward");
+            contentRewards.classList.add("d-none");
+
+            var btnStacked = document.getElementById("btn-stacked");
+            btnStacked.classList.add("active-btn");
+
+            var btnRewards = document.getElementById("btn-rewards");
+            btnRewards.classList.remove("active-btn");
+        }
+        else if(btnName == 'rewards')
+        {
+            var contentStacked = document.getElementById("history-stacked");
+            contentStacked.classList.add("d-none");
+
+
+            var contentRewards = document.getElementById("history-reward");
+            contentRewards.classList.remove("d-none");
+
+            
+            var btnStacked = document.getElementById("btn-stacked");
+            btnStacked.classList.remove("active-btn");
+
+
+            var btnRewards = document.getElementById("btn-rewards");
+            btnRewards.classList.add("active-btn");
+
+
+        }
+    }
+</script>
 
 <?= $this->endSection(); ?>
