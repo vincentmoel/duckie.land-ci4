@@ -31,6 +31,9 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+$routes->get('/home', function(){
+    return view('welcome_message');
+});
 $routes->get('/', function(){
     return view('dao_view');
 });
