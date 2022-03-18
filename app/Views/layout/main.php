@@ -34,7 +34,6 @@
 
 
     <!-- My CSS -->
-    <link href="/css/style_v.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
 
     <!-- Boostrap Icons -->
