@@ -12,7 +12,7 @@
     <div class="col-lg-12">
         <div class="section-header has--bg mb-0">
             <div class="section-wrapper bg-color-black-t3 border-radius-25 p-5 mb-5 ">
-                <h3 class="sub-title">What is Duckie Land DAO+ ?</h3>
+                <h3 class="fs-60">What is Duckie Land DAO+ ?</h3>
                 <p>
                     A decentralized autonomous organization (DAO) is an entity with no central
                     leadership.
@@ -26,42 +26,23 @@
                 </p>
             </div>
             <div class="section-wrapper ">
-                <h3 class="sub-title-2 ml-lg-5 text-lg-left text-center">Continuous Benefits</h3>
+                <h3 class="fs-40 ml-lg-5 text-lg-left text-center">Continuous Benefits</h3>
                 <div class="content">
 
                     <div class="row">
                         <div class="col-lg-4 text-center p-5">
                             <img src="../../asset/img/no-image.jpg" class="w-100px border-radius-25 mb-3" alt="">
-                            <h4 class="sub-title-3"> Initial Offering </h4>
+                            <h4 class="fs-30"> Initial Offering </h4>
                             <p>Decision get made from the bottom-up no central leadership no central</p>
                         </div>
                         <div class="col-lg-4 text-center p-5">
                             <img src="../../asset/img/no-image.jpg" class="w-100px border-radius-25 mb-3" alt="">
-                            <h4 class="sub-title-3"> Initial Offering </h4>
+                            <h4 class="fs-30"> Initial Offering </h4>
                             <p>Decision get made from the bottom-up no central leadership no central</p>
                         </div>
                         <div class="col-lg-4 text-center p-5">
                             <img src="../../asset/img/no-image.jpg" class="w-100px border-radius-25 mb-3" alt="">
-                            <h4 class="sub-title-3"> Initial Offering </h4>
-                            <p>Decision get made from the bottom-up no central leadership no central</p>
-                        </div>
-
-
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 text-center p-5">
-                            <img src="../../asset/img/no-image.jpg" class="w-100px border-radius-25 mb-3" alt="">
-                            <h4 class="sub-title-3"> Initial Offering </h4>
-                            <p>Decision get made from the bottom-up no central leadership no central</p>
-                        </div>
-                        <div class="col-lg-4 text-center p-5">
-                            <img src="../../asset/img/no-image.jpg" class="w-100px border-radius-25 mb-3" alt="">
-                            <h4 class="sub-title-3"> Initial Offering </h4>
-                            <p>Decision get made from the bottom-up no central leadership no central</p>
-                        </div>
-                        <div class="col-lg-4 text-center p-5">
-                            <img src="../../asset/img/no-image.jpg" class="w-100px border-radius-25 mb-3" alt="">
-                            <h4 class="sub-title-3"> Initial Offering </h4>
+                            <h4 class="fs-30"> Initial Offering </h4>
                             <p>Decision get made from the bottom-up no central leadership no central</p>
                         </div>
 
@@ -70,17 +51,36 @@
                     <div class="row">
                         <div class="col-lg-4 text-center p-5">
                             <img src="../../asset/img/no-image.jpg" class="w-100px border-radius-25 mb-3" alt="">
-                            <h4 class="sub-title-3"> Initial Offering </h4>
+                            <h4 class="fs-30"> Initial Offering </h4>
                             <p>Decision get made from the bottom-up no central leadership no central</p>
                         </div>
                         <div class="col-lg-4 text-center p-5">
                             <img src="../../asset/img/no-image.jpg" class="w-100px border-radius-25 mb-3" alt="">
-                            <h4 class="sub-title-3"> Initial Offering </h4>
+                            <h4 class="fs-30"> Initial Offering </h4>
                             <p>Decision get made from the bottom-up no central leadership no central</p>
                         </div>
                         <div class="col-lg-4 text-center p-5">
                             <img src="../../asset/img/no-image.jpg" class="w-100px border-radius-25 mb-3" alt="">
-                            <h4 class="sub-title-3"> Initial Offering </h4>
+                            <h4 class="fs-30"> Initial Offering </h4>
+                            <p>Decision get made from the bottom-up no central leadership no central</p>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 text-center p-5">
+                            <img src="../../asset/img/no-image.jpg" class="w-100px border-radius-25 mb-3" alt="">
+                            <h4 class="fs-30"> Initial Offering </h4>
+                            <p>Decision get made from the bottom-up no central leadership no central</p>
+                        </div>
+                        <div class="col-lg-4 text-center p-5">
+                            <img src="../../asset/img/no-image.jpg" class="w-100px border-radius-25 mb-3" alt="">
+                            <h4 class="fs-30"> Initial Offering </h4>
+                            <p>Decision get made from the bottom-up no central leadership no central</p>
+                        </div>
+                        <div class="col-lg-4 text-center p-5">
+                            <img src="../../asset/img/no-image.jpg" class="w-100px border-radius-25 mb-3" alt="">
+                            <h4 class="fs-30"> Initial Offering </h4>
                             <p>Decision get made from the bottom-up no central leadership no central</p>
                         </div>
 

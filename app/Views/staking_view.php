@@ -33,7 +33,7 @@
                         </div>
 
                         <div class="content mb-4">
-                            <h3 class="text-center text-green-3">2,000,000</h3>
+                            <h3 class="text-center color-green-4">2,000,000</h3>
                             <div>
                                 <span class="title">J15.81 Staked</span>
                                 <br>
@@ -83,7 +83,7 @@
                         </div>
 
                         <div class="content mb-4">
-                            <h3 class="text-center text-green-3">2,000,000</h3>
+                            <h3 class="text-center color-green-4">2,000,000</h3>
                             <div>
                                 <span class="title">J15.81 Staked</span>
                                 <br>
@@ -133,7 +133,7 @@
                         </div>
 
                         <div class="content mb-4">
-                            <h3 class="text-center text-green-3">2,000,000</h3>
+                            <h3 class="text-center color-green-4">2,000,000</h3>
                             <div>
                                 <span class="title">J15.81 Staked</span>
                                 <br>
@@ -172,7 +172,7 @@
     </div>
 </div>
 
-<div class="wrapper content-margin bg-blue-dark rounded">
+<div class="wrapper content-margin rounded">
     <div class="wrapper-content p-4">
 
         <div class="header-title mb-3 ">
@@ -181,11 +181,11 @@
                     <h2 class="text-white mb-lg-0 mb-2">History</h2>
                 </div>
                 <div class="col-lg-6 col-md-9 col-12 text-center text-md-right">
-                    <div class="btn-group-wrapper bg-color-blue-2 border-radius-50 h-50px d-inline-flex">
+                    <div class="btn-group-wrapper bg-color-white-t04 border-radius-50 h-50px d-inline-flex">
                         <div class="active-btn button-pills border-radius-50 text-center h-100 d-flex justify-content-center cursor-pointer" id="btn-stacked" onclick="historyClicked('stacked')">
                             <div class="align-self-center text-white">Stacked</div>
                         </div>
-                        <div class=" button-pills border-radius-50 text-center h-100 d-flex justify-content-center cursor-pointer" id="btn-rewards" onclick="historyClicked('rewards')">
+                        <div class="button-pills border-radius-50 text-center h-100 d-flex justify-content-center cursor-pointer" id="btn-rewards" onclick="historyClicked('rewards')">
                             <div class="align-self-center text-white">Rewards</div>
                         </div>
                     </div>
@@ -195,12 +195,12 @@
 
         </div>
 
-        <div class="content bg-blue-dark-2 border-radius-25 p-5 text-center" id="history-stacked">
+        <div class="content bg-color-white-t08 border-radius-25 p-5 text-center" id="history-stacked">
             <img src="../../asset/img/wallet.png" class="mb-3" alt="" width="150px">
             <p class="text-white">No activity found</p>
         </div>
 
-        <div class="content bg-blue-dark-2 border-radius-25 p-5 text-center d-none" id="history-reward">
+        <div class="content bg-color-white-t08 border-radius-25 p-5 text-center d-none" id="history-reward">
             <img src="../../asset/img/wallet.png" class="mb-3" alt="" width="150px">
             <p class="text-white">No reward found</p>
         </div>

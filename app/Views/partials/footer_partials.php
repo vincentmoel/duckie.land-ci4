@@ -1,4 +1,4 @@
-<footer class="footer-color-green p-5 w-100 ">
+<footer class="bg-color-black-2 p-5 w-100 ">
     <div class="container footer-wrapper">
 
         <div class="row">

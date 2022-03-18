@@ -18,11 +18,11 @@
                         <div class="wrapper bg-color-white-t08 border-radius-25 p-4 justify-content-around" style="min-height: 140px;">
                             <div class="row text-center">
                                 <div class="col-lg-6 col-12 align-self-center mb-lg-0 mb-3">
-                                    <h5 class="sub-title-4">Round 1</h5>
-                                    <p class="sub-title-3 text-red">CLOSED</p>
+                                    <h5 class="fs-17">Round 1</h5>
+                                    <p class="fs-30 color-red">CLOSED</p>
                                 </div>
                                 <div class="col-lg-6 col-12 align-self-center">
-                                    <h5 class="sub-title-4">Round 2 open in</h5>
+                                    <h5 class="fs-17">Round 2 open in</h5>
                                     <p class="countdown m-0">
                                         <span class="time">22</span>
                                         <span class="time-colon">:</span>
@@ -51,12 +51,12 @@
                         <div class="wrapper py-4 ">
                             <div class="row1 d-flex">
                                 <img src="../../asset/img/box/box-red.png" alt="" class="mr-3" width="120px">
-                                <span class="align-self-center sub-title-4 font-weight-bold">Character Treasure</span>
-                                <a href="" class="text-green underline align-self-center ml-auto">View transaction log</a>
+                                <span class="align-self-center fs-17 font-weight-bold">Character Treasure</span>
+                                <a href="" class="color-green-5 underline align-self-center ml-auto">View transaction log</a>
 
                             </div>
                             <div class="d-flex mt-4">
-                                <p class="text-red font-weight-bold">SOLD OUT</p>
+                                <p class="color-red font-weight-bold">SOLD OUT</p>
                                 <p class="ml-auto text-muted">Total : 500 treasures</p>
                             </div>
                         </div>
@@ -80,9 +80,9 @@
                                     </div>
                                     <div>
                                         <img src="../../asset/img/coin.png" alt="" width="25px">
-                                        <span class="text-yellow-2 font-weight-bold text-center">8,000 WSO</span>
+                                        <span class="color-yellow-2 font-weight-bold text-center">8,000 WSO</span>
                                         <br>
-                                        <a class="button-normal bg-grey text-white border-radius-50 mt-3 w-100 text-center">Buy Now</a>
+                                        <a class="button-normal bg-color-grey text-white border-radius-50 mt-3 w-100 text-center">Buy Now</a>
 
                                     </div>
                                 </div>
@@ -95,9 +95,10 @@
                                             <div class="icon">
                                                 <img src="../../asset/img/treasure.png" alt="" width="20px">
                                             </div>
+
                                             <div class="text ml-2">
-                                                <p class="text-size-12 text-white-2 text-white-2">Common</p>
-                                                <p class="text-size-12 text-white-2">50%</p>
+                                                <p class="fs-12 color-white">Common</p>
+                                                <p class="fs-12 color-white">50%</p>
                                             </div>
                                         </div>
                                         <div class="d-flex mx-2">
@@ -105,8 +106,8 @@
                                                 <img src="../../asset/img/treasure.png" alt="" width="20px">
                                             </div>
                                             <div class="text ml-2">
-                                                <p class="text-size-12 text-white-2 text-green-2">Uncommona</p>
-                                                <p class="text-size-12 text-white-2">50%</p>
+                                                <p class="fs-12 color-white color-green-3">Uncommona</p>
+                                                <p class="fs-12 color-white">50%</p>
                                             </div>
                                         </div>
 
@@ -118,8 +119,8 @@
                                                 <img src="../../asset/img/treasure.png" alt="" width="20px">
                                             </div>
                                             <div class="text ml-2">
-                                                <p class="text-size-12 text-white-2 text-blue-light">Rare</p>
-                                                <p class="text-size-12 text-white-2">50%</p>
+                                                <p class="fs-12 color-white color-blue">Rare</p>
+                                                <p class="fs-12 color-white">50%</p>
                                             </div>
                                         </div>
 
@@ -128,8 +129,8 @@
                                                 <img src="../../asset/img/treasure.png" alt="" width="20px">
                                             </div>
                                             <div class="text ml-2">
-                                                <p class="text-size-12 text-white-2 text-purple">Epic</p>
-                                                <p class="text-size-12 text-white-2">50%</p>
+                                                <p class="fs-12 color-white color-purple">Epic</p>
+                                                <p class="fs-12 color-white">50%</p>
                                             </div>
                                         </div>
                                         <div class="d-flex mx-2">
@@ -137,8 +138,8 @@
                                                 <img src="../../asset/img/treasure.png" alt="" width="20px">
                                             </div>
                                             <div class="text ml-2">
-                                                <p class="text-size-12 text-white-2 text-yellow-3">Legendary</p>
-                                                <p class="text-size-12 text-white-2">50%</p>
+                                                <p class="fs-12 color-white color-yellow-3">Legendary</p>
+                                                <p class="fs-12 color-white">50%</p>
                                             </div>
                                         </div>
                                     </div>
@@ -180,12 +181,12 @@
                         <div class="wrapper py-4 justify-content-between">
                             <div class="row1 d-flex">
                                 <img src="../../asset/img/box/box-red.png" alt="" class="mr-3" width="120px">
-                                <span class="align-self-center sub-title-4 font-weight-bold">Character Treasure</span>
-                                <a href="" class="text-green underline align-self-center ml-auto">View transaction log</a>
+                                <span class="align-self-center fs-17 font-weight-bold">Character Treasure</span>
+                                <a href="" class="color-green-5 underline align-self-center ml-auto">View transaction log</a>
 
                             </div>
                             <div class="d-flex mt-4">
-                                <p class="text-red font-weight-bold">SOLD OUT</p>
+                                <p class="color-red font-weight-bold">SOLD OUT</p>
                                 <p class="ml-auto text-muted">Total : 500 treasures</p>
                             </div>
                         </div>
@@ -209,9 +210,9 @@
                                     </div>
                                     <div>
                                         <img src="../../asset/img/coin.png" alt="" width="25px">
-                                        <span class="text-yellow-2 font-weight-bold">4,000 WSO</span>
+                                        <span class="color-yellow-2 font-weight-bold">4,000 WSO</span>
                                         <br>
-                                        <a class="button-normal bg-grey text-white border-radius-50 mt-3 w-100 text-center">Buy Now</a>
+                                        <a class="button-normal bg-color-grey text-white border-radius-50 mt-3 w-100 text-center">Buy Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -224,8 +225,8 @@
                                                 <img src="../../asset/img/treasure.png" alt="" width="20px">
                                             </div>
                                             <div class="text ml-2">
-                                                <p class="text-size-12 text-white-2 text-white-2">Common</p>
-                                                <p class="text-size-12 text-white-2">50%</p>
+                                                <p class="fs-12 color-white">Common</p>
+                                                <p class="fs-12 color-white">50%</p>
                                             </div>
                                         </div>
                                         <div class="d-flex mx-2">
@@ -233,8 +234,8 @@
                                                 <img src="../../asset/img/treasure.png" alt="" width="20px">
                                             </div>
                                             <div class="text ml-2">
-                                                <p class="text-size-12 text-white-2 text-green-2">Uncommon</p>
-                                                <p class="text-size-12 text-white-2">50%</p>
+                                                <p class="fs-12 color-white color-green-3">Uncommon</p>
+                                                <p class="fs-12 color-white">50%</p>
                                             </div>
                                         </div>
 
@@ -246,8 +247,8 @@
                                                 <img src="../../asset/img/treasure.png" alt="" width="20px">
                                             </div>
                                             <div class="text ml-2">
-                                                <p class="text-size-12 text-white-2 text-blue-light">Rare</p>
-                                                <p class="text-size-12 text-white-2">50%</p>
+                                                <p class="fs-12 color-white color-blue">Rare</p>
+                                                <p class="fs-12 color-white">50%</p>
                                             </div>
                                         </div>
 
@@ -256,17 +257,18 @@
                                                 <img src="../../asset/img/treasure.png" alt="" width="20px">
                                             </div>
                                             <div class="text ml-2">
-                                                <p class="text-size-12 text-white-2 text-purple">Epic</p>
-                                                <p class="text-size-12 text-white-2">50%</p>
+                                                <p class="fs-12 color-white color-purple">Epic</p>
+                                                <p class="fs-12 color-white">50%</p>
                                             </div>
                                         </div>
                                         <div class="d-flex mx-2">
                                             <div class="icon">
+
                                                 <img src="../../asset/img/treasure.png" alt="" width="20px">
                                             </div>
                                             <div class="text ml-2">
-                                                <p class="text-size-12 text-white-2 text-yellow-3">Legendary</p>
-                                                <p class="text-size-12 text-white-2">50%</p>
+                                                <p class="fs-12 color-white color-yellow-3">Legendary</p>
+                                                <p class="fs-12 color-white">50%</p>
                                             </div>
                                         </div>
                                     </div>
