@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-class InoController extends BaseController
+class INOController extends BaseController
 {
     public function index()
     {

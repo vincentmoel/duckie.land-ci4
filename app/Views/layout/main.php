@@ -46,7 +46,20 @@
 
 </head>
 
-
+<style>
+    body{
+        background-image: url("../../asset/img/background/bg_node2.png");
+        height: 100%;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   background-color: #042729;
+   max-width: 1920px;
+   margin: 0 auto;
+   background-size: 100%;
+   background-repeat: no-repeat;
+    }
+</style>
 
 <body>
 
@@ -63,7 +76,7 @@
         <?= $this->include('partials/header_partials'); ?>
 
 
-        <section class="inner-hero bg_img mt-4" data-background="../../asset/img/background/bg_node2.png">
+        <section class="banner-jumbotron bg_img mt-4" data-background="">
             <div class="container">
                 <?= $this->renderSection('jumbotron'); ?>
             </div>

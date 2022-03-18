@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-class IIOController extends BaseController
+class DuckieBridgeController extends BaseController
 {
     public function index()
     {
