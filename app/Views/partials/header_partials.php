@@ -1,3 +1,12 @@
+<?php 
+
+$uri = new \CodeIgniter\HTTP\URI();
+$uri = current_url(true);
+  // 'first-heading'
+
+
+?>
+
 <header class="header">
     <div class="hdr-topline hdr-topline--dark js-hdr-top">
         <div class="container">
@@ -45,10 +54,10 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav main-menu ml-auto">
-                        <li class=" active">
+                        <li class="<?= ($uri->getSegment(1) == "dao") ? 'active' : '' ; ?>">
                             <a href="/dao">DAO</a>
                         </li>
-                        <li class=" ">
+                        <li class="<?= ($uri->getSegment(1) == "staking") ? 'active' : '' ; ?>">
                             <a href="/staking">Staking</a>
                         </li>
                         <li class="menu-about menu_has_children ">
