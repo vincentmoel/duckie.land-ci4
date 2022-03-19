@@ -9,7 +9,7 @@
                     <h3 class="color-yellow mb-3">Duckie Land DAO+</h3>
                     <h1 class="mb-3 ">Govern in Continuous Earn System</h1>
                     <div class="btn-group-wrapper">
-                        <a href="#" class="button border-radius-20 gradient-red text-white font-weight-bold mr-2">Learn
+                        <a href="#" class="button border-radius-20 gradient-red text-white font-weight-bold mr-lg-2 mr-0 mr-lg-0 mb-2">Learn
                             More</a>
                         <a href="#" class="button border-radius-20 gradient-yellow text-dark font-weight-bold">BUY
                             $MMETA</a>
