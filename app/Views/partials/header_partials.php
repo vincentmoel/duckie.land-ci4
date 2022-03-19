@@ -47,7 +47,7 @@ $uri = current_url(true);
         <div class="container">
             <nav class="navbar navbar-expand-xl align-items-center navbar-editable">
                 <a class="site-logo site-title site-editable" href="https://duckie.land/"><img src="https://duckie.land/assets/images/duckie-land-logo.png" alt="site-logo"><span class="logo-icon"><i class="flaticon-fire"></i></span></a>
-                <span class="site-logo-tagline site-editable">A DUCK FILLED GAMING METAVERSE</span>
+                <span class="site-logo-tagline site-editable fs-17-im" style="bottom: -30px !important;">Decentralized Autonomous Organization</span>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="menu-toggle"></span>
                 </button>

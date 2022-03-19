@@ -184,6 +184,9 @@ body {
 .fs-17{
     font-size: 17px;
 }
+.fs-17-im{
+    font-size: 17px !important;
+}
 .fs-12{
     font-size: 12px;
 }
@@ -275,7 +278,14 @@ body {
 @media (max-device-width : 480px){
     .banner-jumbotron{
         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-device-width : 320px){
+    .banner-jumbotron{
+        padding-top: 80px;
+        padding-bottom: 15px;
     }
 }
 
