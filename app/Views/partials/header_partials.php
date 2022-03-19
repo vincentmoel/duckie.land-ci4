@@ -54,8 +54,8 @@ $uri = current_url(true);
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav main-menu ml-auto">
-                        <li class="<?= ($uri->getSegment(1) == "dao") ? 'active' : '' ; ?>">
-                            <a href="/dao">DAO</a>
+                        <li class="<?= ($uri->getSegment(1) == "") ? 'active' : '' ; ?>">
+                            <a href="/">Home</a>
                         </li>
                         <li class="<?= ($uri->getSegment(1) == "staking") ? 'active' : '' ; ?>">
                             <a href="/staking">Staking</a>

@@ -37,9 +37,6 @@ $routes->get('/home', function(){
 $routes->get('/', function(){
     return view('dao_view');
 });
-$routes->get('/dao', function(){
-    return view('dao_view');
-});
 
 $routes->get('/staking', function(){
     return view('staking_view');
