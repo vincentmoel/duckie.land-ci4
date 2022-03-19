@@ -45,14 +45,6 @@
 
 </head>
 
-<style>
-    body {
-        background-image: url("../../asset/img/background/bg_node2.png");
-        background-color: #042729;
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
-</style>
 
 <body>
 
