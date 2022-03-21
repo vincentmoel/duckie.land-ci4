@@ -8,6 +8,7 @@ class DuckieBridgeController extends BaseController
 {
     public function index()
     {
-        //
+        return view('duckie-bridge_view');
+        
     }
 }

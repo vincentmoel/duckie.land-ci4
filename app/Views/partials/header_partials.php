@@ -64,27 +64,27 @@ $uri = current_url(true);
                             <a class="menu-about">Access</a>
 
                             <div class="dropdown-menu about">
-                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Game Test</span>
+                                <span class="dropdown-item" onclick='window.location.href="/game-test"'>Game Test</span>
                                 <span class="dropdown-item" onclick='window.location.href="/ino"'>INO</span>
-                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/land"'>ILO</span>
-                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/land"'>IIO</span>
-                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/land"'>Voting</span>
-                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/land"'>Proposal</span>
+                                <span class="dropdown-item" onclick='window.location.href="/ilo"'>ILO</span>
+                                <span class="dropdown-item" onclick='window.location.href="/iio"'>IIO</span>
+                                <span class="dropdown-item" onclick='window.location.href="/voting"'>Voting</span>
+                                <span class="dropdown-item" onclick='window.location.href="/proposal"'>Proposal</span>
                             </div>
 
                         <li>
-                            <a href="https://duckie.land#team-part">Ranking</a>
+                            <a href="/ranking">Ranking</a>
                         </li>
                         <li class="menu-about menu_has_children ">
                             <a class="menu-about">Services</a>
 
                             <div class="dropdown-menu about">
-                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Duckie Starter</span>
-                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Duckie Bridge</span>
-                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Duckie Morph</span>
-                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Duckie Market</span>
-                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Duckie Store</span>
-                                <span class="dropdown-item" onclick='window.location.href="https://duckie.land/duckie"'>Duckie Cafe</span>
+                                <span class="dropdown-item" onclick='window.location.href="/duckie-starter"'>Duckie Starter</span>
+                                <span class="dropdown-item" onclick='window.location.href="/duckie-bridge"'>Duckie Bridge</span>
+                                <span class="dropdown-item" onclick='window.location.href="/duckie-morph"'>Duckie Morph</span>
+                                <span class="dropdown-item" onclick='window.location.href="/duckie-market"'>Duckie Market</span>
+                                <span class="dropdown-item" onclick='window.location.href="/duckie-store"'>Duckie Store</span>
+                                <span class="dropdown-item" onclick='window.location.href="/duckie-cafe"'>Duckie Cafe</span>
                             </div>
 
                         <li>

@@ -8,6 +8,6 @@ class StakingController extends BaseController
 {
     public function index()
     {
-        //
+        return view('staking_view');
     }
 }

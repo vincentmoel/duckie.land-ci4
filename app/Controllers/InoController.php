@@ -8,6 +8,7 @@ class INOController extends BaseController
 {
     public function index()
     {
-        //
+        return view('ino_view');
+        
     }
 }

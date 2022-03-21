@@ -31,20 +31,24 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/home', function(){
-    return view('welcome_message');
-});
-$routes->get('/', function(){
-    return view('dao_view');
-});
 
-$routes->get('/staking', function(){
-    return view('staking_view');
-});
+$routes->get('/', 'HomeController::index');
+$routes->get('/staking', 'StakingController::index');
+$routes->get('/game-test', 'GameTestController::index');
+$routes->get('/ino', 'INOController::index');
+$routes->get('/ilo', 'ILOController::index');
+$routes->get('/iio', 'IIOController::index');
+$routes->get('/voting', 'VotingController::index');
+$routes->get('/proposal', 'ProposalController::index');
+$routes->get('/ranking', 'RankingController::index');
+$routes->get('/duckie-starter', 'DuckieStarterController::index');
+$routes->get('/duckie-bridge', 'DuckieBridgeController::index');
+$routes->get('/duckie-morph', 'DuckieMorphController::index');
+$routes->get('/duckie-market', 'DuckieMarketController::index');
+$routes->get('/duckie-store', 'DuckieStoreController::index');
+$routes->get('/duckie-cafe', 'DuckieCafeController::index');
 
-$routes->get('/ino', function(){
-    return view('ino_view');
-});
+
 
 /*
  * --------------------------------------------------------------------

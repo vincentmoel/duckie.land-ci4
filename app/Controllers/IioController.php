@@ -8,6 +8,6 @@ class IIOController extends BaseController
 {
     public function index()
     {
-        //
+        return view('iio_view');
     }
 }

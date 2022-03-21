@@ -8,6 +8,7 @@ class VotingController extends BaseController
 {
     public function index()
     {
-        //
+        return view('voting_view');
+        
     }
 }

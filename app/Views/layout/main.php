@@ -34,7 +34,8 @@
 
 
     <!-- My CSS -->
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="https://dao.duckie.land/css/style.css?ver=<?=filemtime('css/style.css')?>" rel="stylesheet">
+    <link href="https://dao.duckie.land/css/jumbotron.css?ver=<?=filemtime('css/jumbotron.css')?>" rel="stylesheet">
 
     <!-- Boostrap Icons -->
     <link rel="stylesheet" href="/asset/bootstrap-icons/font/bootstrap-icons.css">

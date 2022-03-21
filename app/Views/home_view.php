@@ -1,7 +1,7 @@
 <?= $this->extend('layout/main'); ?>
 
 <?= $this->section('jumbotron'); ?>
-    <?= $this->include('partials/jumbotron_partials'); ?>
+    <?= $this->include('partials/jumbotron/home_partials'); ?>
 <?= $this->endSection(); ?>
 
 

@@ -8,6 +8,7 @@ class DuckieStarterController extends BaseController
 {
     public function index()
     {
-        //
+        return view('duckie-starter_view');
+        
     }
 }

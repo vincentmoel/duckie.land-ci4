@@ -8,6 +8,7 @@ class DuckieStoreController extends BaseController
 {
     public function index()
     {
-        //
+        return view('duckie-store_view');
+        
     }
 }

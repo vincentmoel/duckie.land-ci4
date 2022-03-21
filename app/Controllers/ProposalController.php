@@ -8,6 +8,7 @@ class ProposalController extends BaseController
 {
     public function index()
     {
-        //
+        return view('proposal_view');
+        
     }
 }

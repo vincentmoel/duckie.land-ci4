@@ -4,10 +4,10 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-class DAOController extends BaseController
+class HomeController extends BaseController
 {
     public function index()
     {
-        //
+        return view('home_view');
     }
 }

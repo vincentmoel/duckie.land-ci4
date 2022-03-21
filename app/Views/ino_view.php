@@ -1,11 +1,12 @@
 <?= $this->extend('layout/main'); ?>
 
 <?= $this->section('jumbotron'); ?>
-<?= $this->include('partials/jumbotron2_partials'); ?>
+<?= $this->include('partials/jumbotron/ino_partials'); ?>
 <?= $this->endSection(); ?>
 
 
 <?= $this->section('content'); ?>
+
 
 
 <div class="wrapper content-margin">
