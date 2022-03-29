@@ -6,7 +6,7 @@ html {
 
 
 body {
-    background-image: url("../../asset/img/background/bg_node2.png");
+    background-image: url("https://dao.duckie.land/asset/img/backgrounds/bg_node2.png");
     background-color: #042729;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -153,6 +153,10 @@ body {
     border-radius: 5px;
 }
 
+.border-radius-10 {
+    border-radius: 10px;
+}
+
 .border-radius-20 {
     border-radius: 20px;
 }
@@ -181,6 +185,9 @@ body {
 .fs-40{
     font-size: 40px;
 }
+.fs-18{
+    font-size: 18px;
+}
 .fs-17{
     font-size: 17px;
 }
@@ -191,6 +198,27 @@ body {
     font-size: 12px;
 }
 /* Font Size End */
+
+
+/* Margin */
+.m-top-270{
+    margin-top: 270px;
+}
+
+.m-bottom-100px{
+    margin-bottom: 100px;
+}
+/* Margin End */
+
+
+.my-card{
+    border: 1px solid #D0D7DE;
+    border-radius: 15px;
+    color: white;
+}
+
+
+
 
 
 /* Cursor */
@@ -226,12 +254,35 @@ body {
     background-color: #85F05E;
 }
 
+.input-title, .input-desc{
+    background-color: transparent ;
+    border: none;
+    caret-color : white;
+    color: white !important;
+    text-align: center;
+}
+
+
+.input-title,
+.input-title::placeholder {
+    font-size: 36px;
+    font-weight: bold;   
+    color: white !important;
+
+}
+
+.input-desc,
+.input-desc::placeholder {
+    font-size: 22px;    
+    color: white !important;
+}
 
 
 /* Button */
 .button {
     padding: 15px 25px 15px 25px;
 }
+
 
 .button-normal{
     padding: 10px 15px 10px 15px;
@@ -249,6 +300,10 @@ body {
 
 .button-pills {
     width: 200px;
+}
+
+.button-pills-lg {
+    width: 300px;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

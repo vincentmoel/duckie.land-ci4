@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="https://duckie.land/assets/css/line-awesome.min.css">
 
     <!-- style main css -->
-    <link rel="stylesheet" href="https://duckie.land/assets/css/main.css?ver=1647226514">
+    <link rel="stylesheet" href="https://duckie.land/assets/css/main.css?ver=<?=filemtime('css/style.css')?>">
 
 
 
@@ -34,9 +34,7 @@
 
 
     <!-- My CSS -->
-    <link href="https://dao.duckie.land/css/style.css?ver=<?=filemtime('css/style.css')?>" rel="stylesheet">
-    <link href="https://dao.duckie.land/css/jumbotron.css?ver=<?=filemtime('css/jumbotron.css')?>" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/style.css">
 
 
     <!-- Boostrap Icons -->
@@ -63,17 +61,7 @@
 
         <?= $this->include('partials/header_partials'); ?>
 
-
-        <section class="banner-jumbotron bg_img mt-4" data-background="">
-            <div class="container">
-                <?= $this->renderSection('jumbotron'); ?>
-            </div>
-
-        </section>
-
-
-
-        <section class="bold-bottom--border mt-2 mb-5" style="border-bottom:none; ">
+        <section class="bold-bottom--border mb-5 m-top-270" style="border-bottom:none; ">
             <div class="container">
                 <?= $this->renderSection('content'); ?>
             </div>
