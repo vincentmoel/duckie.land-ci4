@@ -35,6 +35,7 @@
 
     <!-- My CSS -->
     <link href="https://dao.duckie.land/css/style.css?ver=<?=filemtime('css/style.css')?>" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
 
 
