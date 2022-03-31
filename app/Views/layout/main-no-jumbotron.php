@@ -34,7 +34,8 @@
 
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://dao.duckie.land/css/style.css?ver=<?=filemtime('css/style.css')?>" rel="stylesheet">
+
 
 
     <!-- Boostrap Icons -->
@@ -61,7 +62,7 @@
 
         <?= $this->include('partials/header_partials'); ?>
 
-        <section class="bold-bottom--border mb-5 m-top-270" style="border-bottom:none; ">
+        <section class="main-content bold-bottom--border mb-5" style="border-bottom:none; ">
             <div class="container">
                 <?= $this->renderSection('content'); ?>
             </div>
