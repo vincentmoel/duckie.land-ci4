@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
 }
 
-@media (max-width: 991px){
+@media (max-width: 991px) {
     body {
         background-size: cover !important;
         background-position: 95% 80%;
@@ -21,7 +21,7 @@ body {
 
 
 /* Margin */
-.content-margin{
+.content-margin {
     margin-bottom: 70px;
     margin-top: -8px;
 }
@@ -60,24 +60,24 @@ body {
     background-color: rgba(255, 255, 255, 0.04);
 }
 
-.bg-color-grey{
+.bg-color-grey {
     background-color: #989FA7;
 }
 
 .bg-color-black-2 {
     background-color: #001415;
 }
+
 /* Background Color End */
 
 
 
-
 /* Color */
-.color-white{
+.color-white {
     color: #E4E4E1;
 }
 
-.color-gold{
+.color-gold {
     color: gold;
 }
 
@@ -85,21 +85,25 @@ body {
 .color-green {
     color: #115D7F;
 }
+
 .color-green-2 {
     color: #049D9A;
 }
-.color-green-3{
+
+.color-green-3 {
     color: #9DE658;
 }
-.color-green-4{
+
+.color-green-4 {
     color: #85F05E;
 }
-.color-green-5{
+
+.color-green-5 {
     color: #67B06F;
 }
 
 
-.color-purple{
+.color-purple {
     color: #DF4CF8;
 }
 
@@ -107,29 +111,33 @@ body {
 .color-yellow {
     color: #F9F611;
 }
+
 .color-yellow-2 {
     color: #EDBA56;
 }
-.color-yellow-3{
+
+.color-yellow-3 {
     color: #FFF752;
 }
 
 
-.color-red{
+.color-red {
     color: #CD5D6A;
 }
 
 
-.color-blue{
+.color-blue {
     color: #6EDEF3;
 }
+
 /* Color End */
 
 
 /* Text Decoration */
-.underline{
+.underline {
     text-decoration: underline;
 }
+
 /* Text Decoration End */
 
 
@@ -172,59 +180,188 @@ body {
 .border-radius-50 {
     border-radius: 50px;
 }
+
 /* Border Radius End */
 
 
 /* Font Size */
-.fs-60{
+.fs-60 {
     font-size: 60px;
 }
-.fs-30{
+
+.fs-30 {
     font-size: 30px;
 }
-.fs-40{
+
+.fs-40 {
     font-size: 40px;
 }
-.fs-18{
+
+.fs-18 {
     font-size: 18px;
 }
-.fs-17{
+
+.fs-17 {
     font-size: 17px;
 }
-.fs-17-im{
+
+.fs-17-im {
     font-size: 17px !important;
 }
-.fs-12{
+
+.fs-12 {
     font-size: 12px;
 }
+
 /* Font Size End */
 
 
-/* Margin */
-.m-top-270{
+/* Margin Custom*/
+.m-top-270 {
     margin-top: 270px;
 }
 
-.m-bottom-100px{
+
+.m-left-265 {
+    margin-left: 265px;
+}
+
+.m-bottom-100px {
     margin-bottom: 100px;
 }
+
 /* Margin End */
 
 
-.my-card{
+/* Padding Custom */
+
+.p-bottom-80px {
+    padding-bottom: 80px;
+}
+
+/* Padding End */
+
+
+.my-card {
     border: 1px solid #D0D7DE;
     border-radius: 15px;
     color: white;
 }
 
+.tier-title {
+    padding-bottom: 80px;
+}
+
+.checkpoint-ball {
+    position: relative;
+    top: -63px;
+    margin-left: 55px;
+}
+
+.progress-bar-starter {
+    margin-left: 1.5rem;
+}
+
+.stake-grade {
+    margin-left: 265px;
+}
+
+
+.progress-status {
+    top: -105px;
+}
+
+
+
+@media (max-device-width : 991px) {
+    .checkpoint-ball {
+        position: relative;
+        top: -63px;
+        margin-left: 0px;
+    }
+
+    .tier-title {
+        padding-bottom: 0px;
+        margin-bottom: 1rem;
+    }
+
+    .progress-status {
+        top: 0px;
+        margin: 1.5rem 0rem;
+    }
+
+    .button-wallet-tier{
+        margin-bottom: 1.5rem;
+    }
+
+    .progress-bar-starter {
+        margin-left: 0;
+    }
+
+
+
+    .stake-grade {
+        margin-left: 0;
+    }
+
+    .d-none-991 {
+        display: none;
+    }
+}
+
+
+@media (max-device-width : 767px) {
+    .tier-title {
+        padding-bottom: 0px;
+        margin-bottom: 1rem;
+    }
+
+    .button-wallet-tier{
+        margin-bottom: 1.5rem;
+    }
+
+
+    .progress-status {
+        top: 0px;
+        margin: 2rem 0rem;
+    }
+}
+
+@media(max-device-width:480px){
+    .box-progress{
+        display: none !important;
+    }
+
+    .checkpoint-ball {
+        top: -20px;
+    }
+}
+
+@media(max-device-width:480px){
+
+    .button-wallet-tier{
+        width: 225px !important;
+    }
+}
+
+
+
+.checkpoint-duckie {
+    width: 32px;
+    height: 32px;
+    border: 10px solid rgba(0, 0, 0, 0.9);
+    background-color: white;
+    border-radius: 50px;
+}
 
 
 
 
 /* Cursor */
-.cursor-pointer{
+.cursor-pointer {
     cursor: pointer;
 }
+
 /* Cursor End */
 
 /* Width Height Setting */
@@ -235,29 +372,30 @@ body {
 .h-50px {
     height: 50px;
 }
+
 /* Width Height End */
 
-.separator{
+.separator {
     width: 100%;
     height: 3px;
 }
 
-.grey-bar{
+.grey-bar {
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.green-bar{
-    height: 5px; 
+.green-bar {
+    height: 5px;
     border-radius: 50px;
 
     background-color: #85F05E;
 }
 
-.input-title, .input-desc{
-    background-color: transparent ;
+.input-title, .input-desc {
+    background-color: transparent;
     border: none;
-    caret-color : white;
+    caret-color: white;
     color: white !important;
     text-align: center;
 }
@@ -266,14 +404,14 @@ body {
 .input-title,
 .input-title::placeholder {
     font-size: 36px;
-    font-weight: bold;   
+    font-weight: bold;
     color: white !important;
 
 }
 
 .input-desc,
 .input-desc::placeholder {
-    font-size: 22px;    
+    font-size: 22px;
     color: white !important;
 }
 
@@ -284,9 +422,9 @@ body {
 }
 
 
-.button-normal{
+.button-normal {
     padding: 10px 15px 10px 15px;
-    
+
 }
 
 .button-small {
@@ -318,44 +456,46 @@ body {
 
 
 
-.banner-jumbotron{
+.banner-jumbotron {
     padding-top: 225px;
     padding-bottom: 100px;
 }
 
 @media (max-device-width : 1199px) {
-    .banner-jumbotron{
+    .banner-jumbotron {
         padding-top: 150px;
         padding-bottom: 100px;
     }
 }
 
-@media (max-device-width : 480px){
-    .banner-jumbotron{
+
+
+@media (max-device-width : 480px) {
+    .banner-jumbotron {
         padding-top: 100px;
         padding-bottom: 40px;
     }
 }
 
-@media (max-device-width : 320px){
-    .banner-jumbotron{
+@media (max-device-width : 320px) {
+    .banner-jumbotron {
         padding-top: 80px;
         padding-bottom: 15px;
     }
 }
 
-.countdown *{
+.countdown * {
     font-size: 30px;
     margin-bottom: -10px;
 
 }
 
-.countdown .time{
+.countdown .time {
     color: #3A82E8;
 
 }
 
-.countdown-detail *{
+.countdown-detail * {
     font-size: 12px;
 
 }
