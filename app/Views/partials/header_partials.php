@@ -92,7 +92,7 @@ $uri = current_url(true);
 
                     </ul>
                     <div class="nav-right m-auto p-2">
-                        <a href="#0" class="modal__fire " data-toggle="modal" data-target="#loginModal">Connect
+                        <a href="#0" class="modal__fire " data-toggle="modal" data-target="#loginModal" style="font-size:18px;">Connect
                             Wallet</a>
                     </div>
                 </div>
